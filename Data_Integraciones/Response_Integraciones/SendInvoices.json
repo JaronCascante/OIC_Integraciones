@@ -1,0 +1,6 @@
+{
+    "clave": "string",
+    "estado": "integer -> possible values:((0, 'Creado'), (1, 'Enviado'), (2, 'Recibido'), (3, 'Aceptado'), (4, 'Rechazado'), (5, 'Con Errores'), (6, 'Enviado a anular'), (7, 'En proceso de anular'), (8, 'Proceso de anular con errores'))",
+    "estado_descripcion": "string -> possible values('Creado','Enviado','Recibido','Aceptado','Rechazado','Con Errores')",
+    "documento_xml": "string"
+}

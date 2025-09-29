@@ -1,0 +1,88 @@
+{
+    "tipoFacturaElectronica": "INV",
+    "clave_hacienda": "stringstringstringstringstringstringstringstringst",
+    "consecutivo_hacienda": "stringstringstringst",
+    "marca": "string",
+    "fecha_emision": "2024-04-19T17:27:03.415Z",
+    "numero_consecutivo": 0,
+    "fuente": 1,
+    "referencia_externa": "string",
+    "crear_pdf": false,
+    "condicion_venta": "01",
+    "plazo_credito": "string",
+    "codigo_moneda": "strin",
+    "tipo_cambio": "string",
+    "medios_pago": [
+        {
+            "tipo_medio_pago": "string",
+            "total_medio_pago": "string",
+            "tipo_medio_pago_otros": "string"
+        }
+    ],
+    "receptor": {
+        "razon_social": "string",
+        "correo": "string",
+        "enviar_correo": false,
+        "numero_identificacion": "string",
+        "tipo_identificacion": "st",
+        "identificacion_extranjero": "string"
+    },
+    "detalle_mercancia": [
+        {
+            "codigo_cabys": "string",
+            "unidad_medida": "string",
+            "codigo_de_linea": "string",
+            "detalle": "string",
+            "precio_unitario": "string",
+            "cantidad": "string",
+            "servicio": false,
+            "referencia": "string",
+            "talla": "string",
+            "color": "string",
+            "impuestos": [
+                {
+                    "codigo": "st",
+                    "codigo_iva": "st",
+                    "tarifa": "string",
+                    "monto": "string",
+                    "exoneracion": {
+                        "tipo_documento": "st",
+                        "numero_documento": "string",
+                        "nombre_institucion": "string",
+                        "fecha_emision": "2024-04-19T17:27:03.415Z",
+                        "porcentaje_exoneracion": 0,
+                        "monto_exoneracion": "string"
+                    }
+                }
+            ],
+            "descuentos": [
+                {
+                    "naturaleza_descuento": "string",
+                    "monto_descuento": "string"
+                }
+            ]
+        }
+    ],
+    "otros_cargos": {
+        "tipo_documento": "st",
+        "detalle": "string",
+        "porcentaje": "string",
+        "monto_cargo": "string"
+    },
+    "tienda": {
+        "external_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "codigo_icg": "string",
+        "descripcion": "string",
+        "correo": "user@example.com"
+    },
+    "caja": {
+        "external_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "codigo_icg": "string",
+        "descripcion": "string"
+    },
+    "tipo_documento_referencia": "st",
+    "clave_documento_referencia": "string",
+    "fecha_emision_documento_referencia": "2024-05-15T18:35:21.519Z",
+    "codigo_referencia": "st",
+    "razon": "string"
+}

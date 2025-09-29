@@ -1,0 +1,88 @@
+{
+    "clave_hacienda": "stringstringstringstringstringstringstringstringst",
+    "consecutivo_hacienda": "stringstringstringst",
+    "marca": "string",
+    "fecha_emision": "2025-09-25T14:51:08.133Z",
+    "numero_consecutivo": 0,
+    "fuente": 1,
+    "referencia_externa": "string",
+    "condicion_venta": 1,
+    "condicion_venta_otros": "string",
+    "plazo_credito": 99999,
+    "codigo_moneda": "strin",
+    "tipo_cambio": "string",
+    "medios_pago": [
+        {
+            "tipo_medio_pago": "string",
+            "total_medio_pago": "string",
+            "tipo_medio_pago_otros": "string"
+        }
+    ],
+    "receptor": {
+        "razon_social": "string",
+        "correo": "string",
+        "enviar_correo": false,
+        "numero_identificacion": "string",
+        "tipo_identificacion": "st",
+        "codigo_actividad_receptor": "string"
+    },
+    "detalle_mercancia": [
+        {
+            "codigo_cabys": "string",
+            "unidad_medida": "string",
+            "codigo_de_linea": "string",
+            "detalle": "string",
+            "precio_unitario": "string",
+            "cantidad": "string",
+            "servicio": false,
+            "referencia": "string",
+            "talla": "string",
+            "color": "string",
+            "partida_arancelaria": "string",
+            "tipo_transaccion": "01",
+            "impuestos": [
+                {
+                    "codigo": "st",
+                    "codigo_iva": "st",
+                    "tarifa": "string",
+                    "monto": "string",
+                    "exoneracion": {
+                        "tipo_documento": "st",
+                        "numero_documento": "string",
+                        "numero_articulo": 999999,
+                        "numero_inciso": 999999,
+                        "nombre_institucion": "st",
+                        "nombre_institucion_otros": "string",
+                        "fecha_emision": "2025-09-25T14:51:08.134Z",
+                        "porcentaje_exoneracion": "string",
+                        "monto_exoneracion": "string"
+                    }
+                }
+            ],
+            "descuentos": [
+                {
+                    "naturaleza_descuento": "string",
+                    "codigo_descuento": "01",
+                    "monto_descuento": "string"
+                }
+            ]
+        }
+    ],
+    "otros_cargos": {
+        "tipo_documento": "st",
+        "detalle": "string",
+        "porcentaje": "string",
+        "monto_cargo": "string"
+    },
+    "tienda": {
+        "external_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "codigo_icg": "string",
+        "descripcion": "string",
+        "correo": "user@example.com"
+    },
+    "caja": {
+        "external_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "codigo_icg": "string",
+        "descripcion": "string"
+    }
+}
